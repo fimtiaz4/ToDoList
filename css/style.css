@@ -11,11 +11,18 @@ body{
 .input_form{
   width: 100%;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
   outline: 0px;
   border: none;
   margin: 20px 0px;
+  font-size: 22px;
 }
+
+.input_form::placeholder{
+  font-size: 22px;
+}
+
+
 
 .taskToDo{
   margin-bottom: 25px;
@@ -24,14 +31,30 @@ body{
 h2{
   margin: 15px 0px;
 }
+  .task{
+    
+    width: 100%;
+    padding: 18px;
+    margin-bottom:4px ;
+    font-size: 16px;
+    color: black;
 
-.task{
-	background: rgba(255, 255, 255, 0.6);
-	width: 100%;
-	padding: 10px;
-	margin-bottom:4px ;
+  }
 
-}
+  ol {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  ol li{
+    background: rgba(255, 255, 255, 0.6);
+    margin-bottom: 11px;
+    list-style-position: inside;
+  }
+
+
+
 
 
 .completedTask .task{
@@ -39,7 +62,7 @@ h2{
 }
 
 
-.task i, .task2 i{
+.task i{
   float: right;
   margin-left: 16px;
   cursor: pointer;
@@ -56,6 +79,10 @@ h2{
   transform: scale(1.2);
 }
 
-.col-md-5{
+.col-md-10{
+  margin: auto;
+}
+
+.col-md-7{
   margin: auto;
 }

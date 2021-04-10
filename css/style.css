@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	background: linear-gradient(to right, #a3d2ca, #5eaaa8);
+	height: 100vh;
+}
+
+.input_form{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  outline: 0px;
+  border: none;
+  margin: 20px 0px;
+}
+
+.taskToDo{
+  margin-bottom: 25px;
+}
+
+h2{
+  margin: 15px 0px;
+}
+
+.task{
+	background: rgba(255, 255, 255, 0.6);
+	width: 100%;
+	padding: 10px;
+	margin-bottom:4px ;
+
+}
+
+
+.completedTask .task{
+  background: rgba(255, 255, 255, 0.8);
+}
+
+
+.task i, .task2 i{
+  float: right;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.r:hover{
+  color: red;
+  transform: scale(1.2);
+
+}
+
+.g:hover:hover{
+  color: rgb(2, 248, 2);
+  transform: scale(1.2);
+}
+
+.col-md-5{
+  margin: auto;
+}
